@@ -14,9 +14,15 @@ export const CreatorBtn = ({ setView }) => {
     setOpen((o) => !o);
   };
   return (
-    <div className="-mt-1.5">
-      <button className=" hover:text-teal-500" onClick={toggleIsOpen}>
-        CREATORS<span className="text-yellow-400 ml-2 text-xl">&#8964;</span>
+    <div className="md:m-1 lg:ml-6">
+      <button
+        className=" hover:text-teal-500 font-open text-sm"
+        onClick={toggleIsOpen}
+      >
+        CREATORS
+        {/* <span className="  md: text-yellow-400 ml-2 text-xl rotate-90">
+          &#8250;
+        </span> */}
       </button>
       {isOpen && (
         <div className="absolute top-20 bg-white z-50">

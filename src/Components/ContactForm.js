@@ -19,9 +19,9 @@ const ContactForm = (props) => {
       className="mc__form place-content-center"
       onSubmit={(e) => coolFunctionHandler(e)}
     >
-      <div className="ml-80 text-normal text-sm text-slate-500">
+      <div className="ml-8 lg:ml-96 text-normal text-sm text-slate-500">
         Name*
-        <div className="border-solid border-2 bg-transparent font-open text-normal text-sm text-slate-300 border-teal-100 w-2/3 h-14 mt-1 rounded-md mb-8">
+        <div className="border-solid border-2 bg-transparent font-open text-normal text-sm text-black border-teal-100 w-72 md:w-1/2 h-16 mt-1 rounded-xl mb-8">
           <InputField
             label=""
             onChangeHandler={setName}
@@ -33,22 +33,22 @@ const ContactForm = (props) => {
           />
         </div>
       </div>
-      <div className="ml-80 text-normal text-sm text-slate-500">
+      <div className="ml-8 lg:ml-96 text-normal text-sm text-slate-500">
         How did you hear about us?
-        <div className="border-solid border-2 bg-transparent font-open text-normal text-sm text-black border-teal-100 w-44 h-36 mt-1 rounded-md mb-8">
+        <div className="border-solid border-2 bg-transparent font-open text-normal text-sm text-black border-teal-100 w-72 md:w-96 h-30 mt-1 rounded-xl mb-8">
           <InputField
             label=""
             onChangeHandler={setMessage}
-            type="textarea"
+            type="textarea2"
             value={message}
             placeholder=""
             name="message"
           />
         </div>
       </div>
-      <div className="ml-80 text-normal text-sm text-slate-500">
+      <div className="ml-8 lg:ml-96 text-normal text-sm text-slate-500">
         Phone*
-        <div className="border-solid border-2 bg-transparent font-open text-normal text-sm text-black border-teal-100 w-2/3 h-14 mt-1 rounded-md mb-8">
+        <div className="border-solid border-2 bg-transparent font-open text-normal text-sm text-black border-teal-100 w-72 md:w-1/2 h-16 mt-1 rounded-xl mb-8">
           <InputField
             label=""
             onChangeHandler={setPhoneNumber}
@@ -60,9 +60,9 @@ const ContactForm = (props) => {
           />
         </div>
       </div>
-      <div className="ml-80 text-normal text-sm text-slate-500">
+      <div className="ml-8 lg:ml-96 text-normal text-sm text-slate-500">
         Event Date
-        <div className="border-solid border-2 bg-transparent font-open text-normal text-sm text-black border-teal-100 w-2/3 h-14 mt-1 rounded-md mb-8">
+        <div className="border-solid border-2 bg-transparent font-open text-normal text-sm text-black border-teal-100 w-72 md:w-1/2 h-16 mt-1 rounded-xl mb-8">
           <InputField
             label=""
             onChangeHandler={setEventDate}
@@ -73,9 +73,9 @@ const ContactForm = (props) => {
           />
         </div>
       </div>
-      <div className="ml-80 text-normal text-sm text-slate-500">
+      <div className="ml-8 lg:ml-96 text-normal text-sm text-slate-500">
         Estimated Guest Count
-        <div className="border-solid border-2 bg-transparent font-open text-normal text-sm text-black border-teal-100 w-2/3 h-14 mt-1 rounded-md mb-8">
+        <div className="border-solid border-2 bg-transparent font-open text-normal text-sm text-black border-teal-100 w-72 md:w-1/2 h-16 mt-1 rounded-xl mb-8">
           <InputField
             label=""
             onChangeHandler={setEstimatedGuestCount}
@@ -86,9 +86,9 @@ const ContactForm = (props) => {
           />
         </div>
       </div>
-      <div className="ml-80 text-normal text-sm text-slate-500">
+      <div className="ml-8 lg:ml-96 text-normal text-sm text-slate-500">
         Email*
-        <div className="border-solid border-2 bg-transparent font-open text-normal text-sm text-black border-teal-100 w-2/3 h-14 mt-1 rounded-md mb-8">
+        <div className="border-solid border-2 bg-transparent font-open text-normal text-sm text-black border-teal-100 w-72 md:w-1/2 h-16 mt-1 rounded-xl mb-8">
           <InputField
             label=""
             onChangeHandler={setEmail}
@@ -100,9 +100,9 @@ const ContactForm = (props) => {
           />
         </div>
       </div>
-      <div className="ml-80 text-normal text-sm text-slate-500">
+      <div className="ml-8 lg:ml-96 text-normal text-sm text-slate-500">
         Event Type*
-        <div className="border-solid border-2 bg-transparent font-open text-normal text-sm text-black border-teal-100 w-2/3 h-14 mt-1 rounded-md mb-8">
+        <div className="border-solid border-2 bg-transparent font-open text-normal text-sm text-black border-teal-100 w-72 md:w-1/2 h-16 mt-1 rounded-xl mb-8">
           <InputField
             label=""
             onChangeHandler={setEventType}
@@ -114,9 +114,9 @@ const ContactForm = (props) => {
           />
         </div>
       </div>
-      <div className="ml-80 text-normal text-sm text-slate-500">
+      <div className="ml-8 lg:ml-96 text-normal text-sm text-slate-500">
         Event Location
-        <div className="border-solid border-2 bg-transparent font-open text-normal text-sm text-black border-teal-100 w-2/3 h-14 mt-1 rounded-md mb-8">
+        <div className="border-solid border-2 bg-transparent font-open text-normal text-sm text-black border-teal-100 w-72 md:w-1/2 h-16 mt-1 rounded-xl mb-8">
           <InputField
             label=""
             onChangeHandler={setEventLocation}
@@ -127,9 +127,9 @@ const ContactForm = (props) => {
           />
         </div>
       </div>
-      <div className="ml-80 text-normal text-sm text-slate-500">
+      <div className="ml-8 lg:ml-96 text-normal text-sm text-slate-500">
         Message
-        <div className="border-solid border-2 bg-transparent font-open text-normal text-sm text-black border-teal-100 w-2/3 h-96 mt-1 rounded-md mb-8">
+        <div className="border-solid border-2 bg-transparent font-open text-normal text-sm text-black border-teal-100 w-72 md:w-1/2 h-96 mt-1 rounded-xl mb-8">
           <InputField
             className="w-2/3 h-96"
             label=""
@@ -141,7 +141,7 @@ const ContactForm = (props) => {
           />
         </div>
       </div>
-      <button className=" bg-teal-500 text-slate-100 hover:bg-white hover:text-teal-500 font-open font-normal rounded-md text-sm w-48 ml-80 h-10 mt-6 mb-12">
+      <button className=" bg-teal-500 text-slate-100 hover:bg-white hover:text-teal-500 font-open font-normal rounded-xl text-sm w-48 ml-8 md:ml-96 h-10 mt-6 mb-12">
         <div className="">
           <InputField
             label="submit"

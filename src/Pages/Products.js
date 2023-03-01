@@ -1,11 +1,8 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
-import { useParams } from "react-router-dom";
 import { useGetProductQuery } from "../app/services/api";
 
 function Products() {
   const { data } = useGetProductQuery();
-  const navigate = useNavigate();
 
   return (
     <>
