@@ -139,7 +139,7 @@ function Footer() {
         <div className="columns-4 gap-2 md:flex ml-7 md:ml-24">
           <Container className="md:w-10 md:h-10 md:mt-10">
             <div>
-              <a href="http://facebook.com">
+              <a href="https://www.facebook.com/profile.php?id=100090380990907&mibextid=LQQJ4d">
                 <FontAwesomeIcon
                   icon={faFacebook}
                   className="w-7 h-7 mb-6 md:mb-0 text-teal-500 hover:text-slate-300"
