@@ -26,7 +26,7 @@ const PlaceMats = () => {
               <h1 className="font-open font-normal text-2xl mt-3">
                 Table center piece (Japanese Kimono band material)
               </h1>
-              <p className="font-open font-normal text-xl mt-3">$ 150</p>
+              <p className="font-open font-normal text-xl mt-3">Sold Out</p>
             </div>
             <button className=" ml-4 w-48 h-10 mb-3 bg-teal-400 text-slate-100 hover:bg-slate-300 hover:text-teal-500 rounded-md">
               Contact us
